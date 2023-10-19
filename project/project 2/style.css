@@ -1,0 +1,35 @@
+body{
+ 
+}
+canvas{
+	padding: 0;
+    margin: auto;
+    display: block;
+	background: silver;
+}
+
+#endscreenContainer{
+	margin-top: 50px;
+	display: flex;
+	width: 100%;
+	position: absolute;
+	justify-content: center;
+}
+
+#endscreen{
+	background: #B6B2B1 ;
+	position: absolute;
+	width: 80%;
+	height: 500px;
+	border: 2px solid #676261;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#endbutton{
+	display: flex;
+	height: 50px;
+	width: 10%;
+}
